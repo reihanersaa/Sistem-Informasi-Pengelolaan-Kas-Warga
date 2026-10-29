@@ -1,20 +1,32 @@
-# 📊 Project Roadmap & WBS Level 3
-
-Berikut adalah visualisasi jadwal perkembangan proyek berdasarkan WBS Level 3 menggunakan Gantt Chart.
-
-```mermaid
 gantt
-title Jadwal Pelaksanaan Proyek
-dateFormat  YYYY-MM-DD
-axisFormat  %d-%b
-section Fase 1: Analisis
-Analisis Kebutuhan Sistem (WBS 1.1) :active, task1, 2026-11-02, 4d
-Desain UI/UX Halaman Utama (WBS 1.2) : task2, after task1, 3d
-section Fase 2: Pengembangan
-Setup Database & Arsitektur (WBS 2.1) : task3, after task1, 5d
-Implementasi API Backend (WBS 2.2)    : task4, after task3, 6d
-Integrasi Front-End & Back-End (WBS 2.3) : task5, after task2 task4, 4d
-section Fase 3: Pengujian
-Manual & Automation Testing (WBS 3.1) : task6, after task5, 4d
-Deployment ke Production (WBS 3.2)    : milestone, task7, after task6, 0d
-   ```
+    title Gantt Chart - S.I Pengelolaan Kas Warga RT. 09 (Jimpitan)
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d %b
+    
+    section 1. Inisiasi & Perencanaan
+    1.1.1 Inisiasi Proyek           :done,    task1, 2026-10-23, 2026-10-25
+    1.1.2 Manajemen Scope & Obj     :active,  task2, 2026-10-24, 2026-10-29
+    1.1.3 Perencanaan Tim & Jadwal  :         task3, 2026-10-27, 2026-10-31
+    
+    section 2. Analisis & Desain
+    1.2.1 Analisis Kebutuhan        :         task4, 2026-10-28, 2026-11-05
+    1.2.2 Perancangan Database      :         task5, 2026-11-06, 2026-11-12
+    1.2.3 Perancangan Proses Sistem :         task6, 2026-11-06, 2026-11-11
+    1.2.4 Perancangan UI/UX         :         task7, 2026-11-06, 2026-11-14
+    
+    section 3. Pengembangan Sistem
+    1.3.1 Setup & Autentikasi       :         task8, 2026-11-13, 2026-11-19
+    1.3.2 Modul Data Master         :         task9, 2026-11-20, 2026-11-24
+    1.3.3 Modul Catat Jimpitan      :         task10, 2026-11-25, 2026-12-03
+    1.3.4 Modul Keuangan Kas        :         task11, 2026-12-04, 2026-12-12
+    1.3.5 Dasbor Transparansi       :         task12, 2026-12-13, 2026-12-17
+    
+    section 4. Pengujian (Testing)
+    1.4.1 Perencanaan Pengujian     :         task13, 2026-11-27, 2026-12-03
+    1.4.2 Pengujian Fungsional      :         task14, 2026-12-18, 2026-12-22
+    1.4.3 User Acceptance Test (UAT):         task15, 2026-12-23, 2026-12-27
+    
+    section 5. Rilis & Penutupan
+    1.5.1 Deployment Prototipe      :         task16, 2026-12-28, 2026-12-30
+    1.5.2 Dokumentasi               :         task17, 2026-12-18, 2026-12-30
+    1.6.3 Penutupan Proyek          :         task18, 2026-12-29, 2026-12-31
