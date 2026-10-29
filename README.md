@@ -1,3 +1,8 @@
+# 📊 Project Roadmap & Gantt Chart
+
+Visualisasi jadwal pelaksanaan proyek **S.I Pengelolaan Kas Warga RT. 09 (Jimpitan)** berdasarkan WBS Level 3.
+
+```mermaid
 gantt
     title Gantt Chart - S.I Pengelolaan Kas Warga RT. 09 (Jimpitan)
     dateFormat  YYYY-MM-DD
@@ -30,3 +35,4 @@ gantt
     1.5.1 Deployment Prototipe      :         task16, 2026-12-28, 2026-12-30
     1.5.2 Dokumentasi               :         task17, 2026-12-18, 2026-12-30
     1.6.3 Penutupan Proyek          :         task18, 2026-12-29, 2026-12-31
+```
